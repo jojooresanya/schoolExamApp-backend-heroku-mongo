@@ -1,0 +1,576 @@
+[{
+    "question": "An element X has 127 neutrons and 82 electrons. Its atomic number is?",
+    "answers": [{
+        "option": "209",
+        "correct": false
+      },
+      {
+        "option": "105",
+        "correct": false
+      },
+      {
+        "option": "45",
+        "correct": false
+      },
+      {
+        "option": "82",
+        "correct": true
+      },
+      {
+        "option": "127",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "When a bottle of Coca-Cola is opened, bubbles of gas evolve.the gas is?",
+    "answers": [{
+      "option": "hydrogen",
+      "correct": false
+    }, {
+      "option": "carbon monoxide",
+      "correct": false
+    }, {
+      "option": "carbon dioxide",
+      "correct": true
+    }, {
+      "option": "sulphur dioxide",
+      "correct": false
+    }, {
+      "option": "chlorine",
+      "correct": false
+    }]
+  },
+  {
+    "question": "Which of the following is the electronic configuration of sodium? (Atomic number of Na = 11)",
+    "answers": [{
+      "option": "1s2 2s2 2p6 3s2",
+      "correct": false
+    }, {
+      "option": "1s2 2s2 2p6 3s2 3p1",
+      "correct": false
+    }, {
+      "option": "1s2 2s2 2p6 3s1",
+      "correct": true
+    }, {
+      "option": "1s2 2s2 2p6 3s0",
+      "correct": false
+    }, {
+      "option": "1s2 2s2 2p6 3s2 3p6 4s1",
+      "correct": false
+    }]
+  },
+  {
+    "question": "Methane is a member of the homologous series called",
+    "answers": [{
+      "option": "alkenes",
+      "correct": false
+    }, {
+      "option": "alcohols",
+      "correct": false
+    }, {
+      "option": "esters",
+      "correct": false
+    }, {
+      "option": "alkanes",
+      "correct": true
+    }, {
+      "option": "alkynes",
+      "correct": false
+    }]
+  },
+  {
+    "question": "An example of a strong electrolyte is",
+    "answers": [{
+      "option": "ethyl acetate",
+      "correct": false
+    }, {
+      "option": "ethanol",
+      "correct": false
+    }, {
+      "option": "glucose",
+      "correct": false
+    }, {
+      "option": "sodium formate",
+      "correct": true
+    }, {
+      "option": "formic acid",
+      "correct": false
+    }]
+  },
+  {
+    "question": "The oxidation state of manganese in KMnO4 is",
+    "answers": [{
+      "option": "+1",
+      "correct": false
+    }, {
+      "option": "+3",
+      "correct": false
+    }, {
+      "option": "+5",
+      "correct": false
+    }, {
+      "option": "+7",
+      "correct": true
+    }, {
+      "option": "+2",
+      "correct": false
+    }]
+  },
+  {
+    "question": "The mass number of an atom is",
+    "answers": [{
+      "option": "the number of electrons in the atom",
+      "correct": false
+    }, {
+      "option": "the number of protons in the nucleus of the atom",
+      "correct": false
+    }, {
+      "option": "the number of neutrons in the nucleus of the atom",
+      "correct": false
+    }, {
+      "option": "the sum of numbers of electrons and protons in the atom",
+      "correct": false
+    }, {
+      "option": "the sum of numbers of protons and neutrons in the nucleus of the atom",
+      "correct": true
+    }]
+  },
+  {
+    "question": "Sodium and potassium belong to the same group of the Periodic Table. This is because",
+    "answers": [{
+      "option": "both are metals",
+      "correct": false
+    }, {
+      "option": "both are soft and lighter than water",
+      "correct": false
+    }, {
+      "option": "both form cations by losing electrons",
+      "correct": false
+    }, {
+      "option": "both have identical electronic configuration",
+      "correct": true
+    }, {
+      "option": "both react with water vigorously",
+      "correct": false
+    }]
+  },
+  {
+    "question": "In the reaction of oxygen with hydrogen to produce water, which of the following statements is true?",
+    "answers": [{
+      "option": "One atom of hydrogen reacts with two atoms of oxygen to give one molecule of water",
+      "correct": false
+    }, {
+      "option": "Two atoms of hydrogen react with two atoms of oxygen to give two molecules of water",
+      "correct": false
+    }, {
+      "option": "One molecule of oxygen reacts with one molecule of hydrogen to give two molecules of water",
+      "correct": false
+    }, {
+      "option": "One molecule of hydrogen reacts with two molecules of oxygen to give three molecules of water",
+      "correct": false
+    }, {
+      "option": "One molecule of oxygen of reacts with two molecules of hydrogen to give two molecules of water",
+      "correct": true
+    }]
+  },
+  {
+    "question": "Oxidation is the process of",
+    "answers": [{
+      "option": "gain of electrons",
+      "correct": false
+    }, {
+      "option": "loss of electrons",
+      "correct": true
+    }, {
+      "option": "gain of hydrogen",
+      "correct": false
+    }, {
+      "option": "loss of oxygen",
+      "correct": false
+    }, {
+      "option": "addition of an electropositive element to a substance",
+      "correct": false
+    }]
+  },
+  {
+    "question": "The number of atoms in one mole of a substance is equal to",
+    "answers": [{
+      "option": "the atomic number",
+      "correct": false
+    }, {
+      "option": "the Avogadro number",
+      "correct": true
+    }, {
+      "option": "the gas constant",
+      "correct": false
+    }, {
+      "option": "the number of neutrons",
+      "correct": false
+    }, {
+      "option": "the number of electrons",
+      "correct": false
+    }]
+  },
+  {
+    "question": "Which of the following statements is NOT true of electrovalent compounds?",
+    "answers": [{
+      "option": "They are solids",
+      "correct": false
+    }, {
+      "option": "They do not vaporize easily",
+      "correct": false
+    }, {
+      "option": "They usually dissolve in water",
+      "correct": false
+    }, {
+      "option": "The elements forming the compounds normally have their valency electrons in a shared state",
+      "correct": true
+    }, {
+      "option": "They conduct electricity",
+      "correct": false
+    }]
+  },
+  {
+    "question": "in the reaction C + 2HNO3 --> C02 + NO2 + NO + H2O nitric acid is acting as",
+    "answers": [{
+      "option": "a reducing agent",
+      "correct": false
+    }, {
+      "option": "a nitrating agent",
+      "correct": false
+    }, {
+      "option": "an oxidizing agent",
+      "correct": true
+    }, {
+      "option": "a catalytic agent",
+      "correct": false
+    }, {
+      "option": "a neutralizing agent",
+      "correct": false
+    }]
+  },
+  {
+    "question": "Which of the following processes takes place during electrolysis?",
+    "answers": [{
+      "option": "Positive ions are discharged at the anode by gaining sufficient electrons to become neutral",
+      "correct": false
+    }, {
+      "option": "Negative ions are discharged at the anode by gaining sufficient electrons to become neutral",
+      "correct": false
+    }, {
+      "option": "Positive ions are discharged at the anode by losing sufficient electrons to become neutral",
+      "correct": false
+    }, {
+      "option": "Negative ions are discharged at the anode by losing sufficient electrons to become neutral",
+      "correct": true
+    }, {
+      "option": "Nothing happens",
+      "correct": false
+    }]
+  },
+  {
+    "question": "In the preparation of ammonia, which of the following is used as the drying agent?",
+    "answers": [{
+      "option": "CaO",
+      "correct": true
+    }, {
+      "option": "CaCl2",
+      "correct": false
+    }, {
+      "option": "Conc. H2SO4",
+      "correct": false
+    }, {
+      "option": "P2O5",
+      "correct": false
+    }, {
+      "option": "H3PO4",
+      "correct": false
+    }]
+  },
+  {
+    "question": "Allotropes are element having",
+    "answers": [{
+      "option": "different physical but the same chemical properties",
+      "correct": true
+    }, {
+      "option": "different chemical but the same physical properties",
+      "correct": false
+    }, {
+      "option": "the same chemical and physical properties",
+      "correct": false
+    }, {
+      "option": "different atomic structures",
+      "correct": false
+    }, {
+      "option": "the same position in the periodic table",
+      "correct": false
+    }]
+  },
+  {
+    "question": "Na2CO3 + 2HCL --> 2NaCl + H2O + CO2. Using the above equation, what volume of carbondioxide, measured at s.t.p is liberated when 53g of sodium carbonate is dissolved in hydrochloric acid? (1 mole of gas occupies 22.4dm3 at s.t.p) (Na = 23, C = 12, O = 16)",
+    "answers": [{
+      "option": "44.8dm3",
+      "correct": false
+    }, {
+      "option": "11.2dm3",
+      "correct": true
+    }, {
+      "option": "3.0dm3",
+      "correct": false
+    }, {
+      "option": "100.1dm3",
+      "correct": false
+    }, {
+      "option": "22.4dm3",
+      "correct": false
+    }]
+  },
+  {
+    "question": "When sodium nitrite dissolves in water, dH is positive. This means that",
+    "answers": [{
+      "option": "the reaction is catalysed",
+      "correct": false
+    }, {
+      "option": "the reaction is complete",
+      "correct": false
+    }, {
+      "option": "the reaction is exothermic",
+      "correct": false
+    }, {
+      "option": "the reaction is endothermic",
+      "correct": true
+    }, {
+      "option": "sodium is highly soluble in water",
+      "correct": false
+    }]
+  },
+  {
+    "question": "if 48,000 coulombs of electricity are required to discharge 0.5 mole of sodium from a molten sodium chloride mass, then the number of coulombs required to discharge 2 moles of lead from molten lead (II) chloride is",
+    "answers": [{
+      "option": "48,000",
+      "correct": false
+    }, {
+      "option": "96,000",
+      "correct": false
+    }, {
+      "option": "192,000",
+      "correct": false
+    }, {
+      "option": "384,000",
+      "correct": true
+    }, {
+      "option": "576,000",
+      "correct": false
+    }]
+  },
+  {
+    "question": "28.8cm3 of nitrogen at 15 degree celcius is cooled to 0 degree celcius at constant pressure, the new volume of nitrogen is",
+    "answers": [{
+      "option": "17.4cm3",
+      "correct": false
+    }, {
+      "option": "14.7cm3",
+      "correct": false
+    }, {
+      "option": "27.3cm3",
+      "correct": true
+    }, {
+      "option": "31.7cm3",
+      "correct": false
+    }, {
+      "option": "34.7cm3",
+      "correct": false
+    }]
+  },
+  {
+    "question": "In an experiment 5.00g of a metal gave 10.59g of its chloride. In another experiment, 1.50g of the same metal combined with 1.68g of chlorine. The above data illustrates",
+    "answers": [{
+      "option": "Law of Conservation of mass",
+      "correct": false
+    }, {
+      "option": "Law of Definite Proportion",
+      "correct": true
+    }, {
+      "option": "Law of Multiple Proportion",
+      "correct": false
+    }, {
+      "option": "Gay Lussac's Law",
+      "correct": false
+    }, {
+      "option": "Avogadro's Law",
+      "correct": false
+    }]
+  },
+  {
+    "question": "Which of the following is NOT a true statement of the Kinetic Theory of Gases?",
+    "answers": [{
+      "option": "The molecules move at random",
+      "correct": false
+    }, {
+      "option": "The size of molecules is negligible as compared with the volume of gas",
+      "correct": false
+    }, {
+      "option": "The molecular collisions are perfectly elastic ",
+      "correct": false
+    }, {
+      "option": "Every molecule has the same Kinetic energy at a particular temperature",
+      "correct": true
+    }, {
+      "option": "The average kinetic energy is proportional to the absolute temperature of the gas",
+      "correct": false
+    }]
+  },
+  {
+    "question": "The electronic configuration of elements X and Y are X = 2, 8, 6; Y = 2, 8, 7. The bond in the compound formed by X and Y is expected to be",
+    "answers": [{
+      "option": "ionic",
+      "correct": false
+    }, {
+      "option": "covalent",
+      "correct": true
+    }, {
+      "option": "dative covalent",
+      "correct": false
+    }, {
+      "option": "metallic",
+      "correct": false
+    }, {
+      "option": "none of the above",
+      "correct": false
+    }]
+  },
+  {
+    "question": "5cm3 of a saturated solution of sodium chloride at 30 degrees celcius gave, on careful evaporation, 1.95g of solid salt. The solubility of sodium chloride at 30 degrees celcius is (Na = 23, Cl = 35.5)",
+    "answers": [{
+      "option": "5.00 mole/dm3",
+      "correct": false
+    }, {
+      "option": "5.67 mole/dm3",
+      "correct": true
+    }, {
+      "option": "6.00 mole/dm3",
+      "correct": false
+    }, {
+      "option": "6.67 mole/dm3",
+      "correct": false
+    }, {
+      "option": "7.00 mole/dm3",
+      "correct": false
+    }]
+  },
+  {
+    "question": "Which of the following compounds and elements would sublime on exposure to the atmosphere?",
+    "answers": [{
+      "option": "Ice",
+      "correct": false
+    }, {
+      "option": "Sulphur",
+      "correct": false
+    }, {
+      "option": "Phosphorus",
+      "correct": false
+    }, {
+      "option": "Iodine",
+      "correct": true
+    }, {
+      "option": "Potassium iodide",
+      "correct": false
+    }]
+  },
+  {
+    "question": "Which one of the following metals is not normally extracted by chemical reduction because of its position in the electrochemical series?",
+    "answers": [{
+      "option": "Copper",
+      "correct": false
+    }, {
+      "option": "Iron",
+      "correct": false
+    }, {
+      "option": "Lead",
+      "correct": false
+    }, {
+      "option": "Potassium",
+      "correct": true
+    }, {
+      "option": "Zinc",
+      "correct": false
+    }]
+  },
+  {
+    "question": "If 1 mole of aluminum contains 6 x 10^23 atoms of aluminum, how many atoms are contained in 0.9g of aluminum? (Al = 27)",
+    "answers": [{
+      "option": "1.0 x 10^21",
+      "correct": false
+    }, {
+      "option": "6.6 x 10^21",
+      "correct": false
+    }, {
+      "option": "2.0 x 10^22",
+      "correct": true
+    }, {
+      "option": "6.0 x 10^22",
+      "correct": false
+    }, {
+      "option": "5.4 x 10^23",
+      "correct": false
+    }]
+  },
+  {
+    "question": "When air is compressed",
+    "answers": [{
+      "option": "its density decreases",
+      "correct": false
+    }, {
+      "option": "it solidifies",
+      "correct": false
+    }, {
+      "option": "its temperature decreases",
+      "correct": true
+    }, {
+      "option": "its temperature increases",
+      "correct": false
+    }, {
+      "option": "its temperature remains unchanged",
+      "correct": false
+    }]
+  },
+  {
+    "question": "The scale formation in a kettle used for boiling water is caused by the presence in water of",
+    "answers": [{
+      "option": "calcium sulphate",
+      "correct": false
+    }, {
+      "option": "calcium carbonate",
+      "correct": false
+    }, {
+      "option": "calcium hydrogen carbonate",
+      "correct": true
+    }, {
+      "option": "calcium hydroxide",
+      "correct": false
+    }, {
+      "option": "magnesium sulphate",
+      "correct": false
+    }]
+  },
+  {
+    "question": "An efflorescent compound is a substance that",
+    "answers": [{
+      "option": "Absorbs water from the air without dissolving in it",
+      "correct": "false"
+    }, {
+      "option": "is capable of giving off coloured luminosity",
+      "correct": false
+    }, {
+      "option": "gives out water to the atmosphere",
+      "correct": false
+    }, {
+      "option": "absorbs water from the air and dissolves in it",
+      "correct": false
+    }, {
+      "option": "gives out its water of crystallization",
+      "correct": true
+    }]
+  }
+]

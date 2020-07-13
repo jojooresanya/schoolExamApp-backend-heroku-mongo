@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/logo-blue.png" type="image/x-png">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script defer src="/js/student/signUp/app.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <section id="section">
+    <div class="container row">
+      {{>welcome}}
+      <div class="signup">
+        <div class="error" id="error"></div>
+        <form id="signupForm">
+          <input type="text" name="firstName" class="form-control" id="firstName" placeholder="First name" required>
+          <input type="text" name="lastName" class="form-control" id="lastName" placeholder="Last name" required>
+          <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+          <input type="text" name="studentId" class="form-control" id="student-id" placeholder="Student id" required>
+          <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
+          <button class="btn submit" id="sign-up">SIGN UP</button>
+        </form>
+        <p>Already have a student account? <a href="/student/login">sign in</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

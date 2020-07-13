@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script defer src="/js/student/quiz/app.js"></script>
+  <title>Quiz</title>
+</head>
+
+<body id="quiz-body">
+  <h2 class="quiz-score"></h2>
+  <div class="quiz-container">
+    <div id="question-container" class="hide">
+      <div class="quiz-time">
+        <h1 id="timer" class="hide"><span id="minutes"></span><span id="timer-column"></span><span id="seconds"></span></h1>
+        <h1 id="time-out"></h1>
+      </div>
+      <div id="quiz-question"></div>
+      <div class="quiz-answer-buttons"></div>
+    </div>
+    <div class="quiz-controls">
+      <button class="quiz-btn" id="start-btn">start</button>
+      <button class="quiz-btn hide" id="exit-btn">Exit</button>
+      <button class="quiz-btn hide" id="next-btn">next</button>
+      <button class="quiz-btn hide" id="submit-btn">submit</button>
+    </div>
+    <footer class="quiz-footer hide">
+      <h4>question <span id="current-question"></span> of <span id="total-questions"></span></h4>
+    </footer>
+  </div>
+</body>
+
+</html>

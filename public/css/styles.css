@@ -1,0 +1,570 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.row {
+  display: flex;
+}
+
+
+/* major styling for all login and sign up pages */
+#section {
+  grid-template-columns: 54% 46%;
+  background: linear-gradient(80deg,
+      rgba(43, 52, 169, 1) 57.9%,
+      rgba(255, 255, 255, 1) 58%);
+}
+
+.welcome {
+  background-color: #2b33a9;
+  width: 50%;
+}
+
+.logo {
+  position: relative;
+  top: 0.5rem;
+  left: 0.25rem;
+  height: 65px;
+  width: 65px;
+}
+
+.welcome h1 {
+  color: white;
+  margin: 8rem 0 0 2rem;
+  font-size: 4rem;
+  max-width: 70ch;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+
+/* index */
+.logins {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logins-btn {
+  font-size: 1rem;
+  color: white;
+  letter-spacing: 0.3em;
+  border: 1px solid #2b34a9;
+  padding: 1em 3.5em;
+  background: #2b34a9;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.signup {
+  width: 50%;
+  /* background-color: salmon; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  margin: -2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-control {
+  width: 23em;
+  height: 2em;
+  margin: 1.5rem 0;
+  border: 1px solid #2b34a9;
+  outline: none;
+  padding: 0.5em;
+}
+
+.staff-form-control {
+  margin: 1rem 0;
+}
+
+.error {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  background: #ff000044;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.submit {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 0.3em;
+  border: 1px solid #2b34a9;
+  padding: 1em 3.5em;
+  background: #2b34a9;
+  text-align: center;
+  cursor: pointer;
+}
+
+.signup p {
+  margin-top: 1em;
+}
+
+.signup p a {
+  text-decoration: none;
+  color: #2b34a9;
+}
+
+.footer-links {
+  width: 50%;
+  position: absolute;
+  bottom: 0.5rem;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  color: #b3b3b3;
+  font-size: 0.8em;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #b3b3b3;
+}
+
+/* courses */
+.courses-section {
+  background: #ffffff;
+  width: 100%;
+}
+
+.courses-section h1 {
+  color: #2b34a9;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-around;
+}
+
+.course {
+  width: 50%;
+  margin: 2.5em 2em;
+  padding: 2em;
+  background: #2b34a9;
+}
+
+.course h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.course ul {
+  list-style: none;
+  margin: 3em 0;
+  color: #e7e7e7;
+  line-height: 1;
+}
+
+.course ul li {
+  margin: 1em 0;
+}
+
+.select {
+  background: #e7e7e7;
+  font-size: 0.9em;
+  padding: 0.6em 2em;
+  margin: 1.9em 0;
+  color: #2b34a9;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.select:hover {
+  transform: scale(1.01);
+}
+
+.courses-footer-links {
+  width: 100%;
+  position: absolute;
+  bottom: 0.5rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #2b34a9;
+  font-size: 0.8em;
+}
+
+.courses-footer-links a {
+  margin: 0 2em;
+  text-decoration: none;
+  color: #2b34a9;
+}
+
+/* user */
+#user-section {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 23% 77%;
+  background: linear-gradient(90deg,
+      rgba(43, 52, 169, 1) 21.9%,
+      rgba(255, 255, 255, 1) 22%);
+}
+
+.user-courses-div {
+  grid-column: 1/2;
+}
+
+.user-courses {
+  margin: 3rem 0;
+  padding: 0 1rem;
+}
+
+.user-courses h2 {
+  color: #ffffff;
+  font-size: 1.7rem;
+}
+
+.user-courses ul {
+  margin: 1rem 0;
+  color: #ffffff;
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.user-courses ul li {
+  margin-bottom: 1rem;
+}
+
+.user-courses h3 {
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+#user-sign-out {
+  font-size: 1rem;
+  margin: 13em 0 0 1em;
+  background: #e0e0e0;
+  color: #2b34a9;
+  padding: 0.8em 2em;
+  font-weight: 600;
+}
+
+.available-tests-div {
+  width: 80%;
+  grid-column: 2/3;
+  padding: 2rem 0 0 2rem;
+}
+
+.available-tests-div h1 {
+  color: #2b34a9;
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+.available-test {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+}
+
+.available-test p {
+  font-size: 1.2rem;
+  background: #2b33a93b;
+  color: #0e135c;
+  font-weight: 600;
+  width: 50%;
+  padding: 0.7em 0.5em;
+}
+
+.available-test button {
+  background: #2b34a9;
+  color: #ffffff;
+  padding: 0 2em;
+  letter-spacing: 3px;
+}
+
+#set-test,
+#stop-test {
+  margin: 1em 0;
+  padding: 1.2em 3em;
+}
+
+.user-footer-links {
+  width: 60%;
+  position: absolute;
+  bottom: 0.5rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #2b34a9;
+  font-size: 0.8em;
+}
+
+.user-footer-links a {
+  margin: 0 2em;
+  text-decoration: none;
+  color: #2b34a9;
+}
+
+/* quiz */
+#quiz-body {
+  margin: 0;
+  padding: 0;
+  background-color: #2b34a9;
+  color: #2b34a9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.quiz-container {
+  background-color: white;
+  width: 80%;
+  padding: 1rem;
+  box-shadow: 0px 0px 10px 2px black;
+}
+
+.quiz-btn {
+  background-color: #2b33a9;
+  color: white;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 1rem;
+  text-align: left;
+}
+
+#quiz-question-container {
+  padding: 1rem;
+}
+
+#quiz-question {
+  padding: 1.5em;
+  margin-bottom: 2em;
+  background: #2b33a93b;
+}
+
+.quiz-footer {
+  padding: 0.5rem 1rem;
+}
+
+.quiz-answer-buttons {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.7rem;
+}
+
+.quiz-answer-buttons .btn {
+  margin: 0.05rem 0;
+}
+
+.quiz-controls {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-controls button {
+  font-size: 2rem;
+}
+
+#time-out {
+  margin-bottom: 1.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+.choice {
+  background-color: green;
+}
+
+.quiz-score {
+  color: white;
+  margin-left: 20rem;
+}
+
+.quiz-time {
+  color: #2b34a9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1125px) {
+  html {
+    font-size: 14px;
+  }
+
+  #section {
+    background: none;
+  }
+
+  .welcome {
+    background-color: #2b33a9;
+  }
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .welcome {
+    width: 100%;
+    height: 45vh;
+  }
+
+  .signup {
+    margin-top: 6rem;
+  }
+
+  .signup p {
+    font-size: 1.5rem;
+  }
+
+  .logins {
+    width: 100%;
+    height: 55vh;
+    justify-content: start;
+  }
+
+  .logins-btn {
+    margin: 9rem 0;
+  }
+
+
+  .logins-btn+.logins-btn {
+    margin-top: -.5rem;
+  }
+
+  .welcome h1 {
+    width: 80%;
+  }
+
+  .footer-links {
+    font-size: 1.5rem;
+    color: #0e135c;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: .7em;
+    position: static;
+    margin-top: 60vh;
+  }
+
+  .footer-links a {
+    color: #0e135c;
+  }
+
+  .footer-links p {
+    grid-column: span 4;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+
+  .welcome h1 {
+    margin: 4rem 0 4rem 2rem;
+  }
+
+  .footer-links {
+    margin-top: 50vh;
+  }
+
+  .logins-btn {
+    margin: 4rem 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .welcome h1 {
+    font-size: 3rem;
+  }
+
+  .signup {
+    margin-top: 4rem;
+  }
+}
+
+
+@media (max-width: 411px) {
+  html {
+    font-size: 10px;
+  }
+
+  .welcome h1 {
+    font-size: 3.5rem;
+  }
+
+  .signup {
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .signup {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-links {
+    margin-top: 46vh;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 8.8px;
+  }
+
+  .welcome h1 {
+    font-size: 3.5rem;
+  }
+
+  .form-control {
+    width: 17em;
+    height: 2em;
+  }
+
+  .footer-links {
+    margin-top: 46vh;
+  }
+}
